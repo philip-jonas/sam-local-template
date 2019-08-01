@@ -1,8 +1,20 @@
-function post(data) {
-	if (data)
-		request(url, (res, err) => {
+/**
+ * this is also just a fake repsonse etc...
+ */
+function request(url, callback) {
+	console.log(`Posting to url ${url}`)
+	return callback('Success!')
+}
+
+/**
+ * do not use this function it sudo code for example only,
+ * this would be replaced by an actual post request.
+ */
+function post(body) {
+	if (body)
+		request(body.url, (res, err) => {
 			if (err) return err
-			return res
+			return console.log(res)
 		})
 }
 
