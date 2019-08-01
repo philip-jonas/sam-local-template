@@ -7,7 +7,7 @@ Globals:
     Timeout: 3
 
 Resources:
-  ScanFunction:
+  FunctionName:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: udmFunction/
