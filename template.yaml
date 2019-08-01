@@ -10,6 +10,6 @@ Resources:
   ScanFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: src/
+      CodeUri: udmFunction/
       Handler: index.handler
       Runtime: nodejs8.10
