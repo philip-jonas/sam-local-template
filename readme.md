@@ -9,4 +9,4 @@
 4. npm run package
 	- zip the files for deplot to aws
 
-Any npm packages you need for your script to run should be installed in the ./src/ directory
+
